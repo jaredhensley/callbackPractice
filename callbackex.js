@@ -4,4 +4,8 @@ function forEach(arr, cb) {
   }
 }
 
-forEach(['red','yellow','green'], function(color) { console.log (color); });
+forEach(['red','yellow','green'],
+         function(color) {
+            console.log (color);
+          }
+);
